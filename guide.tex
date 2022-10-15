@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Visualization of the Schrodinger Equation}
+\author{Noah Liguori-Bills }
+\date{October 2022}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+The Schrodinger Equation can be abbreviated as follows:
+\end{center}
+\[i{\textstyle \hbar }\dot{\Psi}\\=H\Psi\]
+\begin{center}
+Ignoring \({\textstyle \hbar }\) and \(H\), the equation has the form:
+\end{center}
+\[i\dot{y}\\=y\]
+\begin{center}
+Assuming rules for complex differential equations are the same for real ones, this can be simply solved:
+\end{center}
+\[i\frac{dy}{dt}\\=y\]
+\[i*dy\\=y*dt\]
+\[\frac{1}{y}dy\\=\frac{1}{i}dt\]
+\[\frac{1}{y}dy\\=-i*dt\]
+\[\int\frac{1}{y}dy\\=\int-i*dt\]
+\[\ln{(y)}\\=-it+C\]
+\begin{center}
+Ignoring C we get:
+\end{center}
+\[e^{\ln{(y)}}\\=e^{-it}\]
+\[y\\=e^{-it}\]
+\begin{center}
+From Euler's formula we know this is equal to:
+\end{center}
+\[y\\=\cos(x)-i\sin(t)\]
+
+\end{document}
